@@ -1,14 +1,6 @@
 # arabic-spell-check-py
 Spell check for Arabic text using python 
 
-
-## references 
-1. https://github.com/barrust/pyspellchecker and https://github.com/hermitdave/FrequencyWords docs: https://pyspellchecker.readthedocs.io/en/latest/quickstart.html
-2. https://github.com/blatinier/pyhunspell
-3. https://hunspell.github.io/
-4. https://en.wikipedia.org/wiki/Hunspell
-5. https://github.com/linuxscout/yaraspell
-
 ## Installation 
 For hunspell, you need to install the following packages 
 ```
@@ -27,3 +19,12 @@ frequencies.
   -i INFILE, --infile INFILE (input file).
                         
   -o OUTFILE, --outfile OUTFILE (output file).
+
+
+
+## references 
+1. https://github.com/barrust/pyspellchecker and https://github.com/hermitdave/FrequencyWords docs: https://pyspellchecker.readthedocs.io/en/latest/quickstart.html
+2. https://github.com/blatinier/pyhunspell
+3. https://hunspell.github.io/
+4. https://en.wikipedia.org/wiki/Hunspell
+5. https://github.com/linuxscout/yaraspell
