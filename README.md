@@ -23,8 +23,6 @@ frequencies.
 
 
 ## references 
-1. https://github.com/barrust/pyspellchecker and https://github.com/hermitdave/FrequencyWords docs: https://pyspellchecker.readthedocs.io/en/latest/quickstart.html
-2. https://github.com/blatinier/pyhunspell
-3. https://hunspell.github.io/
-4. https://en.wikipedia.org/wiki/Hunspell
-5. https://github.com/linuxscout/yaraspell
+1. https://github.com/blatinier/pyhunspell docs: https://hunspell.github.io/ and https://en.wikipedia.org/wiki/Hunspell
+2. https://github.com/barrust/pyspellchecker and https://github.com/hermitdave/FrequencyWords docs: https://pyspellchecker.readthedocs.io/en/latest/quickstart.html
+3. https://github.com/linuxscout/yaraspell
