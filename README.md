@@ -26,3 +26,4 @@ frequencies.
 1. https://github.com/blatinier/pyhunspell docs: https://hunspell.github.io/ and https://en.wikipedia.org/wiki/Hunspell
 2. https://github.com/barrust/pyspellchecker and https://github.com/hermitdave/FrequencyWords docs: https://pyspellchecker.readthedocs.io/en/latest/quickstart.html
 3. https://github.com/linuxscout/yaraspell
+4. https://github.com/WojciechMula/aspell-python
