@@ -6,6 +6,12 @@ For hunspell, you need to install the following packages
 ```
 sudo apt install hunspell-ar
 sudo apt install libhunspell-dev
+sudo apt install aspell
+sudo apt install libaspell-dev
+sudo apt install aspell-ar
+sudo apt install aspell-ar-large
+pip install hunspell
+pip install aspell-python-py3
 ```
 ## Usage 
 ```hunspell-check.py [-h] -i INFILE -o OUTFILE```
@@ -27,3 +33,4 @@ frequencies.
 2. https://github.com/barrust/pyspellchecker and https://github.com/hermitdave/FrequencyWords docs: https://pyspellchecker.readthedocs.io/en/latest/quickstart.html
 3. https://github.com/linuxscout/yaraspell
 4. https://github.com/WojciechMula/aspell-python
+5. https://www.lfd.uci.edu/~gohlke/pythonlibs/ python wheels for Widnows 

@@ -23,7 +23,10 @@ if __name__ == '__main__':
             else:
                 errors_count[word] += 1
     sorted_freq = sorted(errors_count.items(), key=operator.itemgetter(1), reverse=True)
-    outfile.write('#word\t#freq\n')
+    outfile.write('# word\tfreq\tsuggestion\n')
     for word, freq in sorted_freq:
-        outfile.write('{}\t{}\n'.format(word, freq))
+        try: 
+            outfile.write('{}\t{}\t{}\n'.format(word, freq, hobj.suggest(word)[0]))
+        except IndexError:
+            outfile.write('{}\t{}\n'.format(word, freq))
         
