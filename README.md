@@ -13,11 +13,17 @@ sudo apt install aspell-ar-large
 pip install hunspell
 pip install aspell-python-py3
 ```
-## Usage 
+## Usage hunspell 
 ```hunspell-check.py [-h] -i INFILE -o OUTFILE```
 
 Arabic spell checker based on hunspell. The input is a file and the output is errors with
-frequencies.
+frequencies and suggestion. 
+
+## Usage aspell 
+```aspell-check.py [-h] -i INFILE -o OUTFILE```
+
+Arabic spell checker based on aspell. The input is a file and the output is errors with
+frequencies and suggestion. 
 
 ## Arguments:
   -h, --help            show this help message and exit
