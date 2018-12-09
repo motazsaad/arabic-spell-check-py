@@ -1,0 +1,2 @@
+hunspell
+aspell-python-py3
