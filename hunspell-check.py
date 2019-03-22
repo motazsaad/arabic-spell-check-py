@@ -11,7 +11,7 @@ parser.add_argument('-i', '--infile', type=argparse.FileType(mode='r', encoding=
 parser.add_argument('-o', '--outfile', type=argparse.FileType(mode='w', encoding='utf-8'), help='output file.', required=True)
 
 if __name__ == '__main__':
-    hobj = hunspell.HunSpell('/usr/share/hunspell/ar.dic', '/usr/share/hunspell/ar.aff')
+    hobj = hunspell.HunSpell('./dict-hunspell/ar.dic', './dict-hunspell/ar.aff')
     args = parser.parse_args()
     words = args.infile.read().split()
     outfile = args.outfile
